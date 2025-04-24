@@ -1,0 +1,61 @@
+# Ignore compiled Python files
+*.py[cod]
+
+# Ignore Python cache directories
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+
+# Ignore virtual environment files
+venv/
+env/
+ENV/
+
+# Ignore build and distribution files
+build/
+dist/
+*.egg-info/
+
+# Ignore any files with .DS_Store extension (Mac OS)
+.DS_Store
+
+# Ignore IDE-specific files and directories
+.idea/
+.vscode/
+
+# Ignore any local configuration files
+*.ini
+*.cfg
+
+# Ignore log files
+*.log
+
+# Ignore backup files
+*.bak
+
+# Ignore coverage reports
+.coverage
+htmlcov/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore tox environments
+.tox/
+
+# Ignore documentation builds
+docs/_build/
+
+# Ignore any local data files
+data/
+
+# Ignore any sensitive or personal files
+secrets.json
