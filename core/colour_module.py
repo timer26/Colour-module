@@ -313,9 +313,14 @@ class ColourDemo:
     def supported_colours():
         names = Colour.get_supported_colours("name")
         members = Colour.get_supported_colours("member")
+        label = "Supported Colour"
+
+        for char in label:
+            colour = random.choice(members)
+            print(f"{colour.value}{char}{Colour.RESET.value}", end="")
 
         for name, member in zip(names, members):
-            print(f"{member.value}{name}:{Colour.RESET.value}")
+            print(f"{member.value}{name}{Colour.RESET.value}")
 
 
 
