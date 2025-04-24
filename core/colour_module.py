@@ -318,7 +318,7 @@ class ColourDemo:
         for char in label:
             colour = random.choice(members)
             print(f"{colour.value}{char}{Colour.RESET.value}", end="")
-
+        print()
         for name, member in zip(names, members):
             print(f"{member.value}{name}{Colour.RESET.value}")
 
